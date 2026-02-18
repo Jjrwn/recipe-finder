@@ -10,7 +10,10 @@ export default function RecipeCard({ meal }) {
       />
       <h3>{meal.strMeal}</h3>
       <NavLink to={`/recipe/${meal.idMeal}`}>
-        <button className="bg-amber-600 rounded p-2 w-full mt-2 text-white">
+        <button
+          className="bg-amber-600 rounded p-2 w-full mt-2 text-white cursor-pointer 
+                     hover:bg-amber-700 transition-colors duration-200"
+        >
           View Recipe
         </button>
       </NavLink>
