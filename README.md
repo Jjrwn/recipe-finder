@@ -1,2 +1,2 @@
 ## DEMO
-https://candid-pika-6ac022.netlify.app/
+https://recipefinder-brown.vercel.app/
